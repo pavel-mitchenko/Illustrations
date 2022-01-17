@@ -7,6 +7,8 @@ namespace StructTearing
     {
         static void Main(string[] args)
         {
+            // The example illustrates the 'struct tearing'
+
             var originStruct = new LargeStruct(0);
             var needToExit = false;
 
