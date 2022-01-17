@@ -47,7 +47,7 @@ namespace StructTearing
             _a = _b = _c = _d = _e = initialValue;
         }
 
-        public bool IsAllFieldsEqual => _a == _b && _b == _c && _c == _d;
+        public bool IsAllFieldsEqual => _a == _b && _b == _c && _c == _d && _d == _e;
 
         public override string ToString()
         {
